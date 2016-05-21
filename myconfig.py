@@ -1,6 +1,6 @@
 import os
 
-BASEDIR = '/Users/mjohns44/Code/Civis/Civis'
+BASEDIR = '.'
 
 DB_DIR = os.path.join(BASEDIR,'db')
 
