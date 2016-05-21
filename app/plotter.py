@@ -16,7 +16,7 @@ from bokeh.io import vplot
 from app import app
 from data_sprunger import orig_df,df,most_routes_df,longest_route_df,longest_route_name
 
-def save_html(plot,filename,path='/Users/mjohns44/Code/Civis/app/templates/'):
+def save_html(plot,filename,path='.'):
     html = file_html(plot,CDN,filename)
     full_path = os.path.join(path,filename)
     if not os.path.isfile(full_path):

@@ -5,8 +5,6 @@ from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-app.config.from_envvar('CIVIS_CONFIG')
-
 db = SQLAlchemy(app)
 
 from app import models,views
